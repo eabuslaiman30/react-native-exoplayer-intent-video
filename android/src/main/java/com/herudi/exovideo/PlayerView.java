@@ -29,7 +29,7 @@ public class PlayerView extends RelativeLayout {
         textView.setY(20);
         textView.setTextColor(Color.parseColor("#FFFFFF"));
         textView.setTextSize(16);
-        textView.setText("By Herudi");
+        textView.setText("");
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(100,100);
         params.addRule(RelativeLayout.CENTER_IN_PARENT);
         simpleExoPlayerView.setLayoutParams(new SimpleExoPlayerView.LayoutParams(
