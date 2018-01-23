@@ -19,7 +19,6 @@ public class ExoPlayerIntentPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new ExoPlayerIntentModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
